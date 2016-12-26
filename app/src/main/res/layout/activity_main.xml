@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f1_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.chanhbc.callclown.MainActivity">
+
+    <Button
+        android:id="@+id/btn_call_the_clown"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/f1_callbutton" />
+
+</RelativeLayout>

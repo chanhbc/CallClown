@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextureView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ttv_camera"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="86dp"
+        android:layout_width="128dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="196dp" />
+
+    <Button
+        android:id="@+id/btn_end_call"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="32dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/f3_endbutton"/>
+
+</RelativeLayout>
